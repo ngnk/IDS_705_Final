@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.venv/
+venv/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# R (if you build or install the package locally)
+.Rhistory
+.RData
+.Rproj.user/
+
+# Large local artifacts (uncomment if you keep DB/cache out of git and use LFS or releases)
+# *.db
+# data/worldcup/data-sqlite/
