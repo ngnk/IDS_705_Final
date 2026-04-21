@@ -1,14 +1,16 @@
+# 1. Detect score columns in matches
 Searching for score columns in matches...
 Detected home score column: home_team_score
 Detected away score column: away_team_score
-
+# 2. Merge raw match scores into `fav_df`
 After merging score columns:
 df_reg shape: (384, 188)
 Missing values in detected score columns:
 home_team_score    0
 away_team_score    0
 dtype: int64
-
+# 3. Build favored / underdog goals
+# 4. Sanity-check against Mingjie's `y3` labels
 Agreement between reconstructed y3 and Mingjie's y3: 0.9453
 
 Mismatches found:
@@ -33,7 +35,7 @@ Mismatches found:
 374  M-2022-55  2022     away   0                  1          0          0
 376  M-2022-57  2022     away   0                  1          1          1
 377  M-2022-58  2022     away   2                  1          2          2
-
+# 5. Build human-readable class from `goal_diff`
 Goal difference summary:
 count    384.000000
 mean       1.013021
@@ -67,11 +69,11 @@ draw          88
 fav_loses     53
 fav_wins     243
 Name: count, dtype: int64
-
+# 6. Build regression feature matrix
 Regression design matrices:
 X shape: (384, 97)
 y shape: (384,)
-
+# 7. Temporal split
 Temporal split summary:
 Train years: [np.int64(2002), np.int64(2006), np.int64(2010), np.int64(2014)]
 Holdout years: [np.int64(2018), np.int64(2022)]
@@ -119,7 +121,7 @@ draw         28
 fav_loses    20
 fav_wins     80
 Name: count, dtype: int64
-
+# 8. Missingness check
 Top 20 features by missing rate in X_train:
 und_hist_pso_win_rate_shrunk                0.714844
 feat_away_mgr_hist_win_rate_shrunk          0.703125
@@ -143,9 +145,10 @@ fav_squad_squad_jaccard_vs_prev_wc          0.031250
 fav_hist_et_rate                            0.031250
 dtype: float64
 
-
+# 9. Plot target distribution
 ![distribution_goal_diff](image/output2/distribution_goal_diff.png)
 
 ![class_distribution_implied_goal_diff](image/output2/class_distribution_implied_goal_diff.png)
+# 10. Save objects for next step
 
 Part 2 completed successfully.

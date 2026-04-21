@@ -57,3 +57,5 @@ Holdout prediction preview:
 ![hist_holdout_true_goal_diff_vs_ridge_pred](image/output3/hist_holdout_true_goal_diff_vs_ridge_pred.png)
 
 ![scatter_holdout_ridge_pred_vs_true_goal_diff](image/output3/scatter_holdout_ridge_pred_vs_true_goal_diff.png)
+
+Part 3 completed successfully.

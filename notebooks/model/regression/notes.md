@@ -6,7 +6,7 @@
   * **Pros**: regression uses the margin of victory, so a 3–0 and 1–0 are not treated as equally strong wins.
   * **Cons**: soccer scores are **low-count, discrete, noisy, and heavily concentrated near 0**, so plain regression is a bit less natural than classification.
 * **Primary regression approach**: predict **goal difference**; *vs.* **Optional stronger extension**: predict the **two team scores separately** with count models, then derive win/draw/loss from those
-* Symmetric vs. assymetric threshold
+* Symmetric vs. asymmetric threshold
 
 ## Models
 
@@ -39,11 +39,11 @@ These tell whether the model predicts score margin well:
 * **MAE** on goal difference
 * **RMSE** on goal difference
 
-I would make **MAE **the main one because soccer score margins are small and MAE is easier to interpret.
+I would make **MAE** the main one because soccer score margins are small and MAE is easier to interpret.
 
 ### Converted 3-class metrics
 
-After applying threshold tt**t**, compare fairly to Mingjie's classification approach:
+After applying threshold *t*, compare fairly to Mingjie's classification approach:
 
 * **macro F1**
 * **accuracy**
