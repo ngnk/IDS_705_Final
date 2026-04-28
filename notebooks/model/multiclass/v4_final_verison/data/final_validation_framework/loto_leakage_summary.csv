@@ -1,0 +1,4 @@
+model_name,folds_using_future_tournaments,total_loto_folds
+Baseline,2,3
+Player-enriched,2,3
+Team-history,4,5

@@ -1,0 +1,7 @@
+stage,n_matches,accuracy,macro_f1,confusion,model_key,display_name
+group_stage,96,0.625,0.28571428571428575,"[[0, 0, 15], [0, 1, 18], [1, 2, 59]]",team_history,Team-history model
+knockout_stage,32,0.71875,0.41818181818181815,"[[0, 0, 9], [0, 0, 0], [0, 0, 23]]",team_history,Team-history model
+overall,128,0.6484375,0.291866028708134,"[[0, 0, 24], [0, 1, 18], [1, 2, 82]]",team_history,Team-history model
+group_stage,96,0.6145833333333334,0.28337147215865754,"[[0, 1, 14], [0, 1, 18], [2, 2, 58]]",player_enriched,Player-enriched model
+knockout_stage,32,0.78125,0.6157804459691252,"[[2, 0, 7], [0, 0, 0], [0, 0, 23]]",player_enriched,Player-enriched model
+overall,128,0.65625,0.3400191890117659,"[[2, 1, 21], [0, 1, 18], [2, 2, 81]]",player_enriched,Player-enriched model

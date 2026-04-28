@@ -1,0 +1,4 @@
+model_key,display_name,training_window,main_signals,model_family,n_features,cv_accuracy,holdout_accuracy,holdout_macro_f1
+baseline,Baseline model,2006-2014,Team-level only,RandomForestClassifier,46,0.6822916666666666,0.65625,0.26540284360189575
+team_history,Team-history model,1998-2014,Team-level only,RandomForestClassifier,46,0.6625,0.6484375,0.291866028708134
+player_enriched,Player-enriched model,2006-2014,Team + player/squad,XGBClassifier,88,0.6822916666666666,0.65625,0.3400191890117659

@@ -1,0 +1,11 @@
+fav_confederation,confederation_code,confederation_name,model_key,model_name,n,point_estimate,mean,sd,minus_2sd,plus_2sd,ci_low,ci_high
+CF-1,AFC,Asian Football Confederation,player_enriched,Player-enriched,5,0.6,0.5976,0.2163044093852548,0.1649911812294904,1.0302088187705096,0.2,1.0
+CF-1,AFC,Asian Football Confederation,team_history,Team-history,5,0.6,0.60032,0.22201296257450875,0.15629407485098246,1.0443459251490175,0.2,1.0
+CF-2,CAF,Confederation of African Football,player_enriched,Player-enriched,7,0.7142857142857143,0.710542857142857,0.17305225360485785,0.36443834993314134,1.0566473643525727,0.2857142857142857,1.0
+CF-2,CAF,Confederation of African Football,team_history,Team-history,7,0.7142857142857143,0.7158571428571427,0.1705192521772032,0.37481863850273633,1.0568956472115492,0.42857142857142855,1.0
+CF-3,CONCACAF,"Confederation of North, Central American and Caribbean Association Football",player_enriched,Player-enriched,5,0.2,0.20328,0.1798101997707258,-0.1563403995414516,0.5629003995414515,0.0,0.6
+CF-3,CONCACAF,"Confederation of North, Central American and Caribbean Association Football",team_history,Team-history,5,0.4,0.40096000000000004,0.21742247562425857,-0.03388495124851709,0.8358049512485172,0.0,0.8
+CF-4,CONMEBOL,South American Football Confederation,player_enriched,Player-enriched,31,0.7096774193548387,0.7087225806451614,0.08115701920880963,0.5464085422275421,0.8710366190627806,0.5483870967741935,0.8709677419354839
+CF-4,CONMEBOL,South American Football Confederation,team_history,Team-history,31,0.7096774193548387,0.7092,0.081407076236222,0.546385847527556,0.8720141524724441,0.5483870967741935,0.8709677419354839
+CF-6,UEFA,Union of European Football Associations,player_enriched,Player-enriched,80,0.6625,0.66255,0.051818524987752995,0.558912950024494,0.7661870499755059,0.5625,0.7625
+CF-6,UEFA,Union of European Football Associations,team_history,Team-history,80,0.6375,0.6373475,0.053237790583562386,0.5308719188328752,0.7438230811671247,0.525,0.7375
