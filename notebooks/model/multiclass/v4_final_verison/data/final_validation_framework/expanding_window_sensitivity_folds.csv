@@ -1,9 +1,0 @@
-accuracy,macro_f1,confusion,n_fav_loses,n_draw,n_fav_wins,model_key,model_name,model_family,train_min_year,train_years,test_years,n_train,n_test,validation_option,test_year
-0.640625,0.2628205128205128,"[[0, 0, 7], [1, 0, 13], [2, 0, 41]]",7,14,43,baseline,Baseline,RandomForestClassifier,2006,2006,2010,64,64,A_forward_expanding_window,2010
-0.703125,0.2752293577981651,"[[0, 0, 9], [0, 0, 9], [0, 1, 45]]",9,9,46,baseline,Baseline,RandomForestClassifier,2006,"2006,2010",2014,128,64,A_forward_expanding_window,2014
-0.578125,0.3238831615120275,"[[0, 0, 15], [0, 2, 12], [0, 0, 35]]",15,14,35,team_history,Team-history,RandomForestClassifier,1998,1998,2002,64,64,A_forward_expanding_window,2002
-0.609375,0.2524271844660194,"[[0, 0, 10], [0, 0, 11], [2, 2, 39]]",10,11,43,team_history,Team-history,RandomForestClassifier,1998,"1998,2002",2006,128,64,A_forward_expanding_window,2006
-0.65625,0.3072649572649572,"[[0, 0, 7], [0, 1, 13], [2, 0, 41]]",7,14,43,team_history,Team-history,RandomForestClassifier,1998,"1998,2002,2006",2010,192,64,A_forward_expanding_window,2010
-0.71875,0.2813455657492354,"[[0, 1, 8], [0, 0, 9], [0, 0, 46]]",9,9,46,team_history,Team-history,RandomForestClassifier,1998,"1998,2002,2006,2010",2014,256,64,A_forward_expanding_window,2014
-0.53125,0.3619528619528619,"[[2, 0, 5], [2, 2, 10], [7, 6, 30]]",7,14,43,player_enriched,Player-enriched,XGBClassifier,2006,2006,2010,64,64,A_forward_expanding_window,2010
-0.6875,0.3795004500450045,"[[1, 2, 6], [1, 1, 7], [0, 4, 42]]",9,9,46,player_enriched,Player-enriched,XGBClassifier,2006,"2006,2010",2014,128,64,A_forward_expanding_window,2014

@@ -1,4 +1,0 @@
-model_key,display_name,cv_accuracy,holdout_accuracy,holdout_macro_f1,source
-baseline,Baseline model,0.6822916666666666,0.65625,0.2654028436018957,locked_report_loto_cv_and_2018_2022_pooled_holdout
-team_history,Team-history model,0.6625,0.6484375,0.291866028708134,locked_report_loto_cv_and_2018_2022_pooled_holdout
-player_enriched,Player-enriched model,0.6822916666666666,0.65625,0.3400191890117659,locked_report_loto_cv_and_2018_2022_pooled_holdout

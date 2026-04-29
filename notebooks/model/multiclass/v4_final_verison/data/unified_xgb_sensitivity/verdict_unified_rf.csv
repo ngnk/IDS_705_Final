@@ -1,5 +1,0 @@
-claim,status,value_06,value_rf
-player_enriched macro-F1 ≥ team_history (overall),FAILS,pe=0.340  th=0.292,pe=0.266  th=0.292
-overall accuracy within 5pp across all three models,HOLDS,bl=0.656  th=0.648  pe=0.656,bl=0.656  th=0.648  pe=0.664
-player_enriched knockout accuracy > team_history knockout accuracy,FAILS,pe=0.781  th=0.719,pe=0.719  th=0.719
-player_enriched group-stage accuracy ≈ team_history (within 3pp),HOLDS,pe=0.615  th=0.625,pe=0.646  th=0.625

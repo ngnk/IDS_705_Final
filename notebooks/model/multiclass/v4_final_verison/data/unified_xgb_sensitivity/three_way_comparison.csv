@@ -1,4 +1,0 @@
-model_key,06_algo,06_acc,06_f1,xgb_acc,xgb_f1,rf_acc,rf_f1
-baseline,Ran,0.656,0.265,0.617,0.302,0.656,0.265
-team_history,Ran,0.648,0.292,0.602,0.369,0.648,0.292
-player_enriched,XGB,0.656,0.34,0.656,0.34,0.664,0.266

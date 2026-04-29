@@ -1,4 +1,0 @@
-validation_option,model_key,model_name,model_family,train_min_year,n_folds,total_test_matches,mean_accuracy,sd_accuracy,weighted_accuracy,mean_macro_f1,sd_macro_f1,weighted_macro_f1
-A_forward_expanding_window,baseline,Baseline,RandomForestClassifier,2006,2,128,0.671875,0.04419417382415922,0.671875,0.269024935309339,0.00877437843039057,0.269024935309339
-A_forward_expanding_window,player_enriched,Player-enriched,XGBClassifier,2006,2,128,0.609375,0.11048543456039805,0.609375,0.37072665599893323,0.012408018533422287,0.37072665599893323
-A_forward_expanding_window,team_history,Team-history,RandomForestClassifier,1998,4,256,0.640625,0.06118406314828504,0.640625,0.2912302172480599,0.03123411246726131,0.2912302172480599
