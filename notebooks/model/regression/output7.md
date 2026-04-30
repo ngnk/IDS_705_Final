@@ -77,4 +77,8 @@ C:\Users\yiyun\AppData\Roaming\Python\Python314\site-packages\sklearn\metrics\_c
 C:\Users\yiyun\AppData\Roaming\Python\Python314\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
   _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
 
+![threshold_tuning_oof_xgb_predictions](image/output7/threshold_tuning_oof_xgb_predictions.png)
+
+![holdout_xgb_predictions_with_chosen_draw_threshold](image/output7/holdout_xgb_predictions_with_chosen_draw_threshold.png)
+
 Part 7 completed successfully.

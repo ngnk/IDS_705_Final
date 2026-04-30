@@ -28,4 +28,8 @@ Model comparison:
 1  RandomForestRegressor  1.101702  1.501599     1.139748      1.470676
 2           XGBRegressor  1.076874  1.434630     1.145117      1.490290
 
+![holdout_xgb_hist](image/output6/holdout_xgb_hist.png)
+
+![holdout_xgb_scatter](image/output6/holdout_xgb_scatter.png)
+
 Part 6 completed successfully.

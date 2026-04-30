@@ -27,4 +27,8 @@ Model comparison:
 0                  Ridge  1.160829  1.569069     1.153497      1.483703
 1  RandomForestRegressor  1.101702  1.501599     1.139748      1.470676
 
+![holdout_rf_hist](image/output5/holdout_rf_hist.png)
+
+![holdout_rf_scatter](image/output5/holdout_rf_scatter.png)
+
 Part 5 completed successfully.
