@@ -90,7 +90,7 @@ This is the main merged table for final model development and comparison.
   - Final 2006 to 2022 match-level table with team, ranking, and squad features.
   - This is the clearest starting point for downstream modeling checks.
 
-The final consolidated notebook `notebooks/model/worldcup_multiclass_model.ipynb` rebuilds the multiclass modeling table from the raw World Cup database, ranking files, and `data/processed/player_stats_with_club_elo.csv`. The final CSV files in `data/final/` provide the cleaned modeling tables used by the broader project and supplementary notebooks.
+The final consolidated notebook `notebooks/model/multiclass/worldcup_multiclass_model.ipynb` rebuilds the multiclass modeling table from the raw World Cup database, ranking files, and `data/processed/player_stats_with_club_elo.csv`. The final CSV files in `data/final/` provide the cleaned modeling tables used by the broader project and supplementary notebooks.
 
 ## Setup
 
@@ -129,7 +129,7 @@ When opening notebooks, choose the `ids705-worldcup` kernel.
 Run this notebook from top to bottom:
 
 ```text
-notebooks/model/worldcup_multiclass_model.ipynb
+notebooks/model/multiclass/worldcup_multiclass_model.ipynb
 ```
 
 This notebook reproduces the main multiclass results used in the final report:
